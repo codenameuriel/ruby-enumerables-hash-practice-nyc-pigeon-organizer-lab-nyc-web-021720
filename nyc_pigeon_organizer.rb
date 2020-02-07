@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         new_pigeon_list[array_element][outer_key] = [] unless new_pigeon_list[array_element][outer_key]
         new_pigeon_list[array_element][outer_key] << inner_key.to_s
       end
-    end
-  end
+    }
+  }
   return new_pigeon_list
 end
